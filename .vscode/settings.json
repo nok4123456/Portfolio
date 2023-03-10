@@ -1,35 +1,41 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#47cae1",
-        "activityBar.background": "#47cae1",
-        "activityBar.foreground": "#15202b",
-        "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#db24c0",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "commandCenter.border": "#15202b99",
-        "sash.hoverBorder": "#47cae1",
-        "statusBar.background": "#22b8d3",
-        "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#1b92a7",
-        "statusBarItem.remoteBackground": "#22b8d3",
-        "statusBarItem.remoteForeground": "#15202b",
-        "titleBar.activeBackground": "#22b8d3",
-        "titleBar.activeForeground": "#15202b",
-        "titleBar.inactiveBackground": "#22b8d399",
-        "titleBar.inactiveForeground": "#15202b99"
-    },
-    "peacock.color": "#22b8d3",
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/node_modules": true
-    },
-    "explorerExclude.backup": {},
-    "cSpell.words": [
-        "tailwindcss"
-    ]
+	"workbench.colorCustomizations": {
+		"activityBar.activeBackground": "#47cae1",
+		"activityBar.background": "#47cae1",
+		"activityBar.foreground": "#15202b",
+		"activityBar.inactiveForeground": "#15202b99",
+		"activityBarBadge.background": "#db24c0",
+		"activityBarBadge.foreground": "#e7e7e7",
+		"commandCenter.border": "#15202b99",
+		"sash.hoverBorder": "#47cae1",
+		"statusBar.background": "#22b8d3",
+		"statusBar.foreground": "#15202b",
+		"statusBarItem.hoverBackground": "#1b92a7",
+		"statusBarItem.remoteBackground": "#22b8d3",
+		"statusBarItem.remoteForeground": "#15202b",
+		"titleBar.activeBackground": "#22b8d3",
+		"titleBar.activeForeground": "#15202b",
+		"titleBar.inactiveBackground": "#22b8d399",
+		"titleBar.inactiveForeground": "#15202b99"
+	},
+	"peacock.color": "#22b8d3",
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/node_modules": true,
+		"**/.gitignore": false,
+		"Protfolio/.npmrc": true,
+		"**/package-lock.json": true,
+		"**/tsconfig.json": false,
+		"**/tsconfig.node.json": true,
+		"**/tailwind.config.cjs": true,
+		"**/postcss.config.cjs": true,
+		"**/vite.config.ts": true
+	},
+	"explorerExclude.backup": {},
+	"cSpell.words": ["Docgen", "tailwindcss"]
 }
