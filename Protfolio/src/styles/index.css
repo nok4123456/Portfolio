@@ -5,20 +5,22 @@
 @tailwind utilities;
 
 body {
-	color: rgba(255, 255, 255, 0.65);
-	background-color: #24292e;
-	background-image: url(../../public/star-bg.svg),
-		linear-gradient(#191c20, #24292e 15%);
-	background-repeat: repeat-x;
-	background-position: center 0, 0 0, 0 0;
-	background-size: 100%;
+  color: rgba(255, 255, 255, 0.65);
+  background-color: #24292e;
+  background-image: url(../../public/star-bg.svg),
+    linear-gradient(#191c20, #24292e 15%);
+  background-repeat: repeat-x;
+  background-position: center 0, 0 0, 0 0;
+  background-size: 100%;
 }
 
+/* The straight line */
 .vl {
-	border-left: 6px solid thistle;
-	height: 500px;
-	position: absolute;
-	left: 50%;
-	margin-left: -3px;
-	top: 1000px;
+  border-left: 6px solid thistle;
+  height: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 1000px;
+  z-index: -1;
 }
