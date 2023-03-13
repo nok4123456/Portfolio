@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "../component/Header"
+import Header from "../component/common/Header"
 import { Story, Meta } from "@storybook/react/types-6-0"
 
 export default {
