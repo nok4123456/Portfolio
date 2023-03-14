@@ -2,6 +2,7 @@ import React from "react"
 import Header from "../component/common/Header"
 import Doge from "../assets/Doge.png"
 import AboutMe from "../component/home/AboutMe"
+import { Link } from "react-router-dom"
 
 function Home() {
 	return (
@@ -28,6 +29,15 @@ function Home() {
 				</div>
 			</div>
 			<AboutMe />
+			<div className="flex-1">
+				<div className=" mb-10 text-center">
+					<Link to="/skill">
+						<button className="border-2 hover:bg-white hover:text-black text-white font-bold py-2 px-4 rounded-full">
+							Check out the skill I got
+						</button>
+					</Link>
+				</div>
+			</div>
 		</div>
 	)
 }

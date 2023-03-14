@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 function Header() {
 	return (
@@ -8,8 +9,12 @@ function Header() {
 			</div>
 			<div>
 				<ul className="display inline-flex gap-5 ">
-					<li className="hover:text-blue-300">About Me</li>
-					<li className="hover:text-blue-300">Skill</li>
+					<Link to="/">
+						<li className="hover:text-blue-300">About Me</li>
+					</Link>
+					<Link to="/skill">
+						<li className="hover:text-blue-300">Skill</li>
+					</Link>
 					<li className="hover:text-blue-300">Personal Project</li>
 					<li className="hover:text-blue-300">Blog</li>
 					<li className="hover:text-blue-300">Contact Information</li>
