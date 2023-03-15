@@ -15,9 +15,12 @@ function Header() {
 					<Link to="/skill">
 						<li className="hover:text-blue-300">Skill</li>
 					</Link>
-					<li className="hover:text-blue-300">Personal Project</li>
-					<li className="hover:text-blue-300">Blog</li>
-					<li className="hover:text-blue-300">Contact Information</li>
+					<Link to="/project">
+						<li className="hover:text-blue-300">Personal Project</li>
+					</Link>
+					<Link to="/contact">
+						<li className="hover:text-blue-300">Contact Information</li>
+					</Link>
 				</ul>
 			</div>
 		</div>
