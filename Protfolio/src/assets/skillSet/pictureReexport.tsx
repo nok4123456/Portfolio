@@ -5,8 +5,6 @@ import reactIcon from "./reactIcon.png"
 import redux from "./redux.png"
 import ts from "./ts.png"
 import node from "./node.png"
-import mongodb from "./mongodb.png"
-import reactNative from "./reactNative.png"
 import expo from "./expo.png"
 import reactNavigation from "./reactNavigation.png"
 import ESLint from "./ESLint.png"
@@ -19,23 +17,21 @@ import mysql from "./mysql.png"
 import jenkins from "./jenkins.png"
 
 export {
-    css,
-    html,
-    js,
-    reactIcon,
-    redux,
-    ts,
-    node,
-    mongodb,
-    reactNative,
-    expo,
-    reactNavigation,
-    ESLint,
-    jest,
-    github,
-    springboot,
-    java,
-    aws,
-    mysql,
-    jenkins,
+	css,
+	html,
+	js,
+	reactIcon,
+	redux,
+	ts,
+	node,
+	expo,
+	reactNavigation,
+	ESLint,
+	jest,
+	github,
+	springboot,
+	java,
+	aws,
+	mysql,
+	jenkins,
 }
