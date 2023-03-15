@@ -70,7 +70,7 @@ function Skill() {
 			<Header />
 			<div className="text-center text-white text-2xl">SKILL</div>
 			<div className="flex-1 place-self-center text-center">
-				<div className="grid grid-cols-3">
+				<div className="sm:grid grid-cols-3">
 					<div onClick={() => setSkillType(websiteArray)}>
 						<SkillCard
 							picture={website}

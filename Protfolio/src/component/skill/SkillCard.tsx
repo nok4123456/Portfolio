@@ -11,11 +11,11 @@ function SkillCard(prop: any) {
 			/>
 
 			<div className="p-5">
-				<h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+				<h5 className="mb-5 text-sm sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 					{prop.title}
 				</h5>
 
-				<p className="mt-5 font-normal text-gray-700 dark:text-gray-400">
+				<p className="mt-5 text-xs sm:text-lg font-normal text-gray-700 dark:text-gray-400">
 					{prop.description}
 				</p>
 			</div>

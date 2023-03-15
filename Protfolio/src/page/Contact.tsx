@@ -13,7 +13,7 @@ function Contact() {
 					<div className="mb-5 text-2xl text-white">Email</div>
 					<div>
 						<a
-							className="text-xl text-amber-200 hover:text-amber-500"
+							className="text-sm sm:text-xl text-amber-200 hover:text-amber-500"
 							href="mailto: nok4123456@gmail.com"
 						>
 							nok4123456@gmail.com
@@ -37,7 +37,7 @@ function Contact() {
 							src={facebook}
 						></img>
 					</div>
-					<div className="pt-5 transition-opacity ease-in duration-700 opacity-0 peer-hover:opacity-100">
+					<div className="text-sm sm:text-lg pt-5 transition-opacity ease-in duration-700 opacity-0 peer-hover:opacity-100">
 						Nobody uses facebook now. LOL
 					</div>
 				</div>
